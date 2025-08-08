@@ -6,21 +6,25 @@
       .titulo-principal__numero(data-aos="fade-right")
         span 4
       h1 Gestión de incidentes de ciberseguridad    
+    
     .row.justify-content-center.align-items-centerr.mb-4
       .col-lg-12(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema4/img1.png', alt='Imagen decorativa')
+    
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="zoom-in")
+      .col-lg-2.col-4.d-lg-flex.d-none(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema4/img2.svg', alt='Imagen decorativa')
       .col-lg-10(data-aos="fade-left")
         p La gestión de incidentes de ciberseguridad, consiste en un conjunto de prácticas y procesos diseñados para detectar, responder, mitigar y documentar eventos que ponen en riesgo la información o los sistemas de una organización. Es fundamental porque reduce el impacto de ataques y minimiza la interrupción del negocio
-        p Antes, las organizaciones reaccionaban a los incidentes de forma aislada y sin planificación; hoy, existen equipos dedicados (como CSIRT o SOC) que usan metodologías probadas y herramientas sofisticadas para la gestión de incidentes.
+        p.mb-0 Antes, las organizaciones reaccionaban a los incidentes de forma aislada y sin planificación; hoy, existen equipos dedicados (como CSIRT o SOC) que usan metodologías probadas y herramientas sofisticadas para la gestión de incidentes.
+    
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Ejemplo práctico
-    p.mb-4 Imagine una empresa que detecta acceso no autorizado a su red un sábado por la noche. El equipo responsable sigue estos pasos: 
+    
+    p.mb-5 Imagine una empresa que detecta acceso no autorizado a su red un sábado por la noche. El equipo responsable sigue estos pasos: 
     .tarjeta-BG02.px-md-5.px-4
       ol.lista-ol--cuadro.lista-ol--separador.mb-4
         li 
@@ -56,7 +60,7 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.1 Estándares y marcos de referencia para la respuesta a incidentes
     p Los estándares y marcos de referencia proporcionan lineamientos estructurados que facilitan una respuesta eficiente y coordinada frente a incidentes de ciberseguridad.
-    p.mb-4 A continuación, se presentan cinco de los marcos y estándares más reconocidos y utilizados internacionalmente para la gestión y respuesta a incidentes de ciberseguridad: 
+    p.mb-5 A continuación, se presentan cinco de los marcos y estándares más reconocidos y utilizados internacionalmente para la gestión y respuesta a incidentes de ciberseguridad: 
     .tarjeta--BG044.p-4.px-md-5.mb-5
       .tarjeta.tarjeta--BG04.p-4.my-4(data-aos="fade-left")
         PasosB.color-acento-botones
@@ -95,9 +99,9 @@
             .col-lg-6.mb-lg-0.mb-4.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/temas/tema4/img8.png', alt='Texto que describa la imagen')
-    .row.justify-content-center.align-items-Center
+    .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-left")
-        .cajon.color-secundario.p-4.mb-4
+        .cajon.color-secundario.p-4
           .row.justify-content-center.align-items-center
             .col-lg-2.col-4.mb-lg-0.mb-4
               figure
@@ -109,54 +113,54 @@
       h2 4.2 Políticas organizacionales de seguridad
     p Las políticas de seguridad son documentos alineados con la estrategia del negocio que establecen normas, responsabilidades y procedimientos para proteger los activos de información de una organización. Son requisito en la mayoría de marcos regulatorios e industriales.
     p.mb-4 A continuación, se presentan algunos ejemplos concretos de políticas de seguridad aplicables a diferentes plataformas, servicios y tecnologías actuales en las organizaciones:
-    .titulo-sexto.color-secundario(data-aos="fade-right")
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 2.
       i Ejemplos de Políticas organizacionales de seguridad ligadas a distintas tecnologías
     .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
-      table(data-aos="zoom-in" alt="Texto alternativo tabla")
+      table(alt="Texto alternativo tabla")
         thead
-          tr(data-aos="fade-right")
+          tr(data-aos="fade-left")
             th Tecnología
             th Tipo de política	
             th Ejemplo o descripción
         tbody
-          tr
+          tr(data-aos="fade-left")
             td Control de acceso
             td Control de acceso basado en roles (RBAC)
             td Permite controlar el acceso a la información según el rol del usuario dentro de la organización.
-          tr
+          tr(data-aos="fade-left")
             td Microsoft 365
             td Protección contra amenazas (EOP)
             td Configuración de políticas EOP para antimalware, antispam y protección contra #[i phishing] en correos.
-          tr
+          tr(data-aos="fade-left")
             td Microsoft Teams
             td Prevención de pérdida de datos (DLP)
             td Reglas para evitar la exposición accidental de información crítica en Teams.
-          tr
+          tr(data-aos="fade-left")
             td AWS IAM
             td Política basada en identidad
             td Solo permite acceso a recursos con autenticación multifactor (MFA).
-          tr
+          tr(data-aos="fade-left")
             td AWS S3
             td Control de acceso granular por bucket
             td Acceso restringido de lectura/escritura a buckets específicos, denegando acceso sin MFA.
-          tr
+          tr(data-aos="fade-left")
             td Computación en la nube
             td Seguridad de datos en la nube
             td Uso de cifrado en tránsito/reposo y controles Zero Trust; autenticación multifactor.
-          tr
+          tr(data-aos="fade-left")
             td Firewall Manager de AWS
             td Políticas de grupos de seguridad
             td Gestión de acceso a recursos por reglas específicas en #[i firewalls] de AWS.
-          tr
+          tr(data-aos="fade-left")
             td Microsoft Defender for Office 365
             td Protección de cuentas prioritarias
             td Configuración especial para proteger a directivos y cuentas de alto valor.
-          tr
+          tr(data-aos="fade-left")
             td Acceso físico
             td Control de acceso físico
             td Uso de sistemas biométricos o tarjetas inteligentes para áreas sensibles.
-          tr
+          tr(data-aos="fade-left")
             td Política organizacional general
             td Uso de dispositivos BYOD
             td Normas para el uso seguro y permitido de dispositivos personales en la red corporativa.
@@ -165,7 +169,7 @@
       #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 4.3 Rol del Centro de Operaciones de Seguridad (SOC)
       p(data-aos="flip-up") El Centro de Operaciones de Seguridad o SOC por sus siglas en inglés, es un lugar —o un equipo— dentro de una empresa que se encarga de cuidar la seguridad informática. Es como el “equipo de vigilancia digital” que protege los sistemas, la información y los dispositivos de la organización frente a peligros como virus, #[i hackers] o fraudes.
-      p.mb-4 Hay que pensar en el SOC como si fuera una central de control con cámaras y alarmas digitales, donde las personas que trabajan ahí vigilan todo lo que pasa dentro de las computadoras, redes y sistemas de la empresa. Si llega a pasar algo extraño, como un intento de robo de información o un comportamiento anormal en la red, ellos lo detectan y actúan rápidamente para detenerlo.
+      p.mb-5 Hay que pensar en el SOC como si fuera una central de control con cámaras y alarmas digitales, donde las personas que trabajan ahí vigilan todo lo que pasa dentro de las computadoras, redes y sistemas de la empresa. Si llega a pasar algo extraño, como un intento de robo de información o un comportamiento anormal en la red, ellos lo detectan y actúan rápidamente para detenerlo.
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
           figure
