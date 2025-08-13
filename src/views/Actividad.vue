@@ -30,9 +30,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, estos son los pilares fundamentales de la ciberseguridad.',
+            'Estos son los pilares fundamentales de la ciberseguridad.',
           mensaje_incorrecto:
-            'Incorrecto, la ciberseguridad se basa en asegurar confidencialidad, integridad y disponibilidad.',
+            'La ciberseguridad se basa en asegurar confidencialidad, integridad y disponibilidad.',
         },
         {
           id: 2,
@@ -45,9 +45,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, el SOC realiza monitoreo 24/7 para proteger la infraestructura tecnológica.',
+            'El SOC realiza monitoreo 24/7 para proteger la infraestructura tecnológica.',
           mensaje_incorrecto:
-            'Incorrecto, el SOC sí monitorea continuamente para detectar y responder a incidentes.',
+            'El SOC sí monitorea continuamente para detectar y responder a incidentes.',
         },
         {
           id: 3,
@@ -60,9 +60,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, las políticas oficializan las normas y responsabilidades en seguridad.',
+            'Las políticas oficializan las normas y responsabilidades en seguridad.',
           mensaje_incorrecto:
-            'Incorrecto, las políticas definen formalmente las reglas para proteger información.',
+            'Las políticas definen formalmente las reglas para proteger información.',
         },
         {
           id: 4,
@@ -75,9 +75,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, es uno de los marcos más reconocidos para la respuesta a incidentes.',
+            'Es uno de los marcos más reconocidos para la respuesta a incidentes.',
           mensaje_incorrecto:
-            'Incorrecto, este es un estándar internacional para la gestión de incidentes.',
+            'Este es un estándar internacional para la gestión de incidentes.',
         },
         {
           id: 5,
@@ -90,9 +90,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto, la gestión de incidentes incluye detección, respuesta, mitigación y recuperación.',
+            'La gestión de incidentes incluye detección, respuesta, mitigación y recuperación.',
           mensaje_incorrecto:
-            'Incorrecto, la gestión cubre todo el ciclo de vida del incidente, no solo la detección.',
+            'La gestión cubre todo el ciclo de vida del incidente, no solo la detección.',
         },
         {
           id: 6,
@@ -105,9 +105,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, MFA añade capas adicionales para verificar identidades.',
+            'MFA añade capas adicionales para verificar identidades.',
           mensaje_incorrecto:
-            'Incorrecto, usar MFA es un método eficaz para mejorar la seguridad de accesos.',
+            'Usar MFA es un método eficaz para mejorar la seguridad de accesos.',
         },
         {
           id: 7,
@@ -119,10 +119,9 @@ export default {
             { id: 'a', texto: 'Verdadero', esCorrecta: false },
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto:
-            'Correcto, los SOC operan 24/7 para una vigilancia continua.',
+          mensaje_correcto: 'Los SOC operan 24/7 para una vigilancia continua.',
           mensaje_incorrecto:
-            'Incorrecto, la vigilancia continuada es esencial para detectar amenazas a cualquier hora.',
+            'La vigilancia continuada es esencial para detectar amenazas a cualquier hora.',
         },
         {
           id: 8,
@@ -135,14 +134,14 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, es un estándar internacional para la gestión de incidentes.',
+            'Es un estándar internacional para la gestión de incidentes.',
           mensaje_incorrecto:
-            'Incorrecto, esta norma realmente orienta sobre la gestión de incidentes.',
+            'Esta norma realmente orienta sobre la gestión de incidentes.',
         },
         {
           id: 9,
           texto:
-            'El phishing es un tipo de ataque que busca engañar para obtener información confidencial.',
+            'El #[i phishing] es un tipo de ataque que busca engañar para obtener información confidencial.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -150,9 +149,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, el phishing busca engañar a usuarios para robar datos.',
+            'El #[i phishing] busca engañar a usuarios para robar datos.',
           mensaje_incorrecto:
-            'Incorrecto, el phishing es un ataque de ingeniería social para obtener información.',
+            'El #[i phishing] es un ataque de ingeniería social para obtener información.',
         },
         {
           id: 10,
@@ -165,9 +164,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto, la etapa de lecciones aprendidas es fundamental para prevenir futuros incidentes.',
+            'La etapa de lecciones aprendidas es fundamental para prevenir futuros incidentes.',
           mensaje_incorrecto:
-            'Incorrecto, la mejora continua es clave en la gestión de incidentes.',
+            'La mejora continua es clave en la gestión de incidentes.',
         },
         {
           id: 11,
@@ -180,9 +179,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto, el antivirus es una herramienta, pero no garantiza protección total.',
+            'El antivirus es una herramienta, pero no garantiza protección total.',
           mensaje_incorrecto:
-            'Incorrecto, la seguridad debe ser integral y no depender solo de antivirus.',
+            'La seguridad debe ser integral y no depender solo de antivirus.',
         },
         {
           id: 12,
@@ -195,9 +194,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, actuar rápido limita daños y permite recuperación eficaz.',
+            'Actuar rápido limita daños y permite recuperación eficaz.',
           mensaje_incorrecto:
-            'Incorrecto, la rapidez y coordinación son esenciales en la respuesta a incidentes.',
+            'La rapidez y coordinación son esenciales en la respuesta a incidentes.',
         },
         {
           id: 13,
@@ -210,9 +209,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto, actuar rápido limita daños y permite recuperación eficaz.',
+            'Actuar rápido limita daños y permite recuperación eficaz.',
           mensaje_incorrecto:
-            'Incorrecto, la rapidez y coordinación son esenciales en la respuesta a incidentes.',
+            'La rapidez y coordinación son esenciales en la respuesta a incidentes.',
         },
         {
           id: 14,
@@ -225,9 +224,8 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, los incidentes pueden ser causados también por errores humanos o fallas internas.',
-          mensaje_incorrecto:
-            'Incorrecto, no todos los incidentes tienen origen externo.',
+            'Los incidentes pueden ser causados también por errores humanos o fallas internas.',
+          mensaje_incorrecto: 'No todos los incidentes tienen origen externo.',
         },
         {
           id: 15,
@@ -240,9 +238,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, la IA se usa para detección avanzada y respuesta automatizada.',
+            'La IA se usa para detección avanzada y respuesta automatizada.',
           mensaje_incorrecto:
-            'Incorrecto, la IA es una herramienta emergente clave en ciberseguridad.',
+            'La IA es una herramienta emergente clave en ciberseguridad.',
         },
         {
           id: 16,
@@ -255,14 +253,14 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, para que las políticas se apliquen correctamente, se deben asignar responsabilidades.',
+            'Para que las políticas se apliquen correctamente, se deben asignar responsabilidades.',
           mensaje_incorrecto:
-            'Incorrecto, los roles bien definidos son esenciales para la eficacia de una política.',
+            'Los roles bien definidos son esenciales para la eficacia de una política.',
         },
         {
           id: 17,
           texto:
-            'No hay forma de protegerse contra los ataques de ransomware una vez que el malware ha cifrado los archivos.',
+            'No hay forma de protegerse contra los ataques de #[i ransomware] una vez que el malware ha cifrado los archivos.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -270,9 +268,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto, las copias de seguridad y soluciones especializadas pueden ayudar a recuperarse sin pagar.',
+            'Las copias de seguridad y soluciones especializadas pueden ayudar a recuperarse sin pagar.',
           mensaje_incorrecto:
-            'Incorrecto, aunque el ransomware haya cifrado los archivos, aún es posible recuperarse si se cuenta con copias de seguridad o se utilizan soluciones especializadas.',
+            'Aunque el #[i ransomware] haya cifrado los archivos, aún es posible recuperarse si se cuenta con copias de seguridad o se utilizan soluciones especializadas.',
         },
         {
           id: 18,
@@ -285,9 +283,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto, los smartphones también pueden infectarse con malware o ser atacados.',
+            'Los smartphones también pueden infectarse con malware o ser atacados.',
           mensaje_incorrecto:
-            'Incorrecto, los dispositivos móviles sí pueden ser vulnerables. Al igual que las computadoras, los smartphones pueden infectarse con malware o sufrir ataques de seguridad.',
+            'Los dispositivos móviles sí pueden ser vulnerables. Al igual que las computadoras, los smartphones pueden infectarse con malware o sufrir ataques de seguridad.',
         },
         {
           id: 19,
@@ -300,9 +298,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto, estos enlaces pueden llevar a sitios maliciosos o descargar software dañino.',
+            'Estos enlaces pueden llevar a sitios maliciosos o descargar software dañino.',
           mensaje_incorrecto:
-            'Incorrecto, estos enlaces pueden dirigir a sitios maliciosos o descargar software dañino sin que el usuario lo note.',
+            'Estos enlaces pueden dirigir a sitios maliciosos o descargar software dañino sin que el usuario lo note.',
         },
         {
           id: 20,
@@ -315,9 +313,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto, compartir contraseñas siempre representa un riesgo, sin importar la confianza.',
+            'Compartir contraseñas siempre representa un riesgo, sin importar la confianza.',
           mensaje_incorrecto:
-            'Incorrecto, la seguridad digital se basa en mantener las credenciales de acceso personales y confidenciales.',
+            'La seguridad digital se basa en mantener las credenciales de acceso personales y confidenciales.',
         },
       ],
       mensaje_final_aprobado:

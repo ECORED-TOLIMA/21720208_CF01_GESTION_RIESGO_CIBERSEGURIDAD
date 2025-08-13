@@ -187,7 +187,7 @@ export default {
     {
       tema: '1.1 Concepto de ciberseguridad',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022, 25 de octubre). La Ciberseguridad [Video]. YouTube. https://www.youtube.com/watch?v=sk9dJtwZtlA&t=29s&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022, 25 de octubre). <em>La Ciberseguridad</em> [Video]. YouTube. https://www.youtube.com/watch?v=sk9dJtwZtlA&t=29s&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=sk9dJtwZtlA&t=29s&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
@@ -195,7 +195,7 @@ export default {
     {
       tema: '1.4 Importancia de la ciberseguridad en el entorno empresarial',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023, 1 de febrero). Introducción a la Ciberseguridad, sus fundamentos y normativa [Video]. YouTube. https://www.youtube.com/watch?v=3rqfPRqnKIM&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2023, 1 de febrero). <em>Introducción a la Ciberseguridad, sus fundamentos y normativa</em> [Video]. YouTube. https://www.youtube.com/watch?v=3rqfPRqnKIM&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=3rqfPRqnKIM&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
@@ -203,7 +203,7 @@ export default {
     {
       tema: '4. Gestión de incidentes de ciberseguridad',
       referencia:
-        'Cyberzaintza. (2023, 22 de mayo). CSIRT.es Jorge Chinea, Responsable de Gestión de Incidentes y Crisis de Ciberseguridad en INCIBE [Video]. YouTube. https://www.youtube.com/watch?v=j29xaVO7kTM&ab_channel=Cyberzaintza',
+        'Cyberzaintza. (2023, 22 de mayo). <em>CSIRT.es Jorge Chinea, Responsable de Gestión de Incidentes y Crisis de Ciberseguridad en INCIBE</em> [Video]. YouTube. https://www.youtube.com/watch?v=j29xaVO7kTM&ab_channel=Cyberzaintza',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=j29xaVO7kTM&ab_channel=Cyberzaintza',
@@ -211,7 +211,7 @@ export default {
     {
       tema: '4.2 Políticas organizacionales de seguridad',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023, 6 de diciembre). Mejoramiento continuo de las estrategias de ciberseguridad [Video]. YouTube. https://www.youtube.com/watch?v=pm9bgkdqRBg&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2023, 6 de diciembre). <em>Mejoramiento continuo de las estrategias de ciberseguridad</em> [Video]. YouTube. https://www.youtube.com/watch?v=pm9bgkdqRBg&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=pm9bgkdqRBg&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
@@ -219,7 +219,7 @@ export default {
     {
       tema: '4.3. Rol del Centro de Operaciones de Seguridad (SOC)',
       referencia:
-        'NSIT. (2021, 15 de marzo). NSIT ¿Cómo opera un SOC? https://www.youtube.com/watch?v=-oiT4_y98YI&ab_channel=NSIT',
+        'NSIT. (2021, 15 de marzo). <em>NSIT ¿Cómo opera un SOC?</em> https://www.youtube.com/watch?v=-oiT4_y98YI&ab_channel=NSIT',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=-oiT4_y98YI&ab_channel=NSIT',
     },
@@ -279,58 +279,56 @@ export default {
   referencias: [
     {
       referencia:
-        'Armijo, M. (2011). Planificación estratégica e indicadores de desempeño en el sector público. Manual 69. Santiago de Chile, Chile: Naciones Unidas',
+        'Dempsey, J. X. & Carlin, J. P. (2024). Cybersecurity law fundamentals. Iapp Book.',
       link: '',
     },
     {
       referencia:
-        'David, F. (2008). Conceptos de Administración Estratégica. Ciudad de México, México: Ed. Pearson Prentice Hall, 11 edición.',
-      link: '',
-    },
-    {
-      referencia: 'Díaz, J. (2009). La importancia de Pensar Como Empresario.',
+        'Departamento Administrativo de la Función Pública. (2009). Ley 1273 de 2009 - Por medio de la cual se modifica el Código Penal, se crea un nuevo bien jurídico tutelado - denominado "de la protección de la información y de los datos"- y se preservan integralmente los sistemas que utilicen las tecnologías de la información y las comunicaciones, entre otras disposiciones.',
       link:
-        'https://www.negociosyemprendimiento.org/2009/07/la-importancia-de-pensar-como.html',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=34492',
     },
     {
       referencia:
-        'Fred, D. (2008). Conceptos de Administración Estratégica. México. Pearson Prentice Hall.',
-      link: '',
-    },
-    {
-      referencia:
-        'Mendoza, A. (2005). Célebre Discurso de Steve Jobs en la Universidad de Stanford.',
+        'Europol. (2024). Internet Organised Crime Threat Assessment (IOCTA) 2024.',
       link:
-        'http://mercadeoglobal.com/blog/textos-del-celebre-discurso-de-steve-jobs-en-la-universidad-de-stanford/',
+        'https://www.europol.europa.eu/cms/sites/default/files/documents/Internet%20Organised%20Crime%20Threat%20Assessment%20IOCTA%202024.pdf',
     },
     {
       referencia:
-        'Paredes, E. (2010). La Matriz FODA cruzada para ideas de negocio.',
-      link:
-        'http://gestionando-empresas.blogspot.com/2010/08/la-matriz-foda-cruzada-para-ideas-de.html',
-    },
-    {
-      referencia:
-        'Pick de Weiss, S. (1993). Planeando tu vida. México: Editorial Planeta.',
+        'Ferrer, E. A. (2023). Estudios de cibercrimen. Ediciones Olejnik.',
       link: '',
     },
     {
       referencia:
-        'Rogers, T. (2008). Cómo reforzar una mentalidad de pensamiento positivo.',
-      link:
-        'https://es.wikihow.com/reforzar-una-mentalidad-de-pensamiento-positivo',
+        'Lux, L. M. & Calderón, G. O. (2020). The crime of cyber fraud: Definition and delimitation. Revista Chilena de Derecho y Tecnología, 9(1), 151-184.',
+      link: '',
     },
     {
       referencia:
-        'Presidencia de la República de Colombia. (1971). Código de Comercio, Decreto 410 de marzo 27 de 1971.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102',
+        'Madariaga, A. S. (2024). Código penal y código de procedimiento penal: Comentado jurisprudencialmente. Grupo Editorial Ibañez.',
+      link: '',
     },
     {
       referencia:
-        'Comunidad de Madrid. (s.f.) Tratamiento del riesgo. Comunidad de Madrid.',
+        'Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC). (2016, 29 de junio). Los delincuentes cibernéticos no toman vacaciones: consejos para que se proteja en la red. Ministerio de Tecnologías de la Información y las Comunicaciones.',
       link:
-        'http://www.madrid.org/cs/StaticFiles/Emprendedores/Analisis_Riesgos/pages/pdf/metodologia/5TratamientodelRiesgo%28AR%29_es.pdf',
+        'https://www.mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/15607:Los-delincuentes-ciberneticos-no-toman-vacaciones-consejos-para-que-se-proteja-en-la-red',
+    },
+    {
+      referencia:
+        'National Institute of Standards and Technology (NIST). (2024, 26 de febrero). The NIST Cybersecurity Framework (CSF) 2.0.',
+      link: 'https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf',
+    },
+    {
+      referencia:
+        'Paredes, A. R. Z., Quevedo, I. M. S. & Chalacán, L. J. M. (2020). Seguridad informática en las PyMES de la ciudad de Quevedo. Journal of Business and Entrepreneurial Studies: JBES, 4(2), 232-241.',
+      link: '',
+    },
+    {
+      referencia:
+        'Paya-Santos, C. & Luque-Juárez, J. M. (2021). El sistema de inteligencia criminal ante las nuevas amenazas y oportunidades del ciberespacio. Revista Científica General José María Córdova, 19(36), 1121-1136.',
+      link: 'https://doi.org/10.21830/19006586.855',
     },
   ],
   creditos: [

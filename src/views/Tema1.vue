@@ -37,7 +37,7 @@
     p A medida que surgen nuevas tecnologías como la Inteligencia Artificial (IA) y el Internet de las Cosas (IoT), los ciberdelincuentes desarrollan métodos de ataque más sofisticados, aprovechando la creciente cantidad de dispositivos conectados. Por este motivo, la protección del ecosistema digital requiere un enfoque integral que combine herramientas avanzadas, normativas adecuadas y una sólida cultura de seguridad.
     p.mb-5 Para garantizar una protección eficaz, se emplean diversas herramientas y estrategias, como: 
 
-    .tarjeta--BG053.px-md-5.p-4.mb-5
+    .tarjeta--BG053.px-md-5.mb-5
       .row.justify-content-center.align-items-center.my-lg-5.my-4
         .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop(data-aos="fade-left")
           figure
@@ -149,7 +149,7 @@
       .col-lg-8.order-lg-1.order-2(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Integridad")
-            p.mb-0 Asegura que la información no sea alterada de manera no autorizada. Esto implica que los datos sean precisos y completos, sin modificaciones maliciosas o accidentales. Se emplean mecanismos como las firmas digitales o códigos hash para verificar que los datos no hayan sido alterados. Por ejemplo, si un archivo es enviado a través de Internet, su integridad se puede verificar mediante un código hash, lo que permite comprobar si el archivo ha sido modificado durante el tránsito.
+            p.mb-0 Asegura que la información no sea alterada de manera no autorizada. Esto implica que los datos sean precisos y completos, sin modificaciones maliciosas o accidentales. Se emplean mecanismos como las firmas digitales o códigos hash para verificar que los datos no hayan sido alterados. Por ejemplo, si un archivo es enviado a través de Internet, su integridad se puede verificar mediante un código #[i hash], lo que permite comprobar si el archivo ha sido modificado durante el tránsito.
           div(titulo="Confidencialidad")
             p.mb-0 Este principio garantiza que solo las personas o entidades autorizadas puedan acceder a la información. La confidencialidad es crucial para proteger datos sensibles, como información personal, financiera o corporativa. Por ejemplo, se utilizan técnicas como la encriptación de datos para asegurar que incluso si la información es interceptada, no pueda ser leída sin la clave adecuada. Esta característica protege tanto a individuos como a organizaciones de accesos no autorizados que puedan comprometer su seguridad.
           div(titulo="Disponibilidad")
@@ -216,11 +216,12 @@
           p.mb-0 A medida que los sistemas digitales se expanden y evolucionan, la seguridad debe adaptarse para enfrentar nuevos desafíos y estas características deben ser la base sobre la cual se construyan las estrategias de ciberseguridad.
     
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.4	Importancia de la ciberseguridad en el entorno empresarial
-    
-    p.mb-5 La ciberseguridad es muy importante para las empresas, porque ayuda a proteger toda la información que manejan día a día, como datos personales de los clientes, documentos internos, contraseñas y cuentas bancarias. En el mundo actual, la mayoría de las empresas depende de sistemas digitales y del Internet para funcionar, lo que las hace vulnerables a diferentes tipos de amenazas, como hackers que intentan robar información, virus que dañan los sistemas o correos falsos que engañan a los empleados. Si ocurre un ataque de este tipo, la empresa puede perder mucho dinero, dejar de funcionar por un tiempo o incluso tener problemas con la ley. Pero aún más grave puede ser que los clientes pierdan la confianza en esa empresa y decidan no seguir comprando o contratando sus servicios. Por eso, la ciberseguridad no solo protege los datos, también ayuda a que la empresa siga funcionando sin interrupciones y mantenga su buena reputación.
-    
+    .tarjeta-BG02.px-4
+      #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 1.4	Importancia de la ciberseguridad en el entorno empresarial
+      
+      p.mb-5 La ciberseguridad es muy importante para las empresas, porque ayuda a proteger toda la información que manejan día a día, como datos personales de los clientes, documentos internos, contraseñas y cuentas bancarias. En el mundo actual, la mayoría de las empresas depende de sistemas digitales y del Internet para funcionar, lo que las hace vulnerables a diferentes tipos de amenazas, como hackers que intentan robar información, virus que dañan los sistemas o correos falsos que engañan a los empleados. Si ocurre un ataque de este tipo, la empresa puede perder mucho dinero, dejar de funcionar por un tiempo o incluso tener problemas con la ley. Pero aún más grave puede ser que los clientes pierdan la confianza en esa empresa y decidan no seguir comprando o contratando sus servicios. Por eso, la ciberseguridad no solo protege los datos, también ayuda a que la empresa siga funcionando sin interrupciones y mantenga su buena reputación.
+      
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="zoom-in")
         figure

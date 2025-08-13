@@ -26,31 +26,37 @@
     
     p.mb-5 Imagine una empresa que detecta acceso no autorizado a su red un sábado por la noche. El equipo responsable sigue estos pasos: 
     .tarjeta-BG02.px-md-5.px-4
-      ol.lista-ol--cuadro.lista-ol--separador.mb-4
-        li 
-          .lista-ol--cuadro__vineta.v--green
-            span 1
-          p.mb-0 #[b Preparación:] han entrenado previamente a su personal y cuentan con manuales de acción.
-        li 
-          .lista-ol--cuadro__vineta.v--green
-            span 2
-          p.mb-0 #[b Identificación:] monitorean las alertas de su #[i firewall] e identifican el acceso sospechoso.
-        li 
-          .lista-ol--cuadro__vineta.v--green
-            span 3
-          p.mb-0 #[b Contención:] aíslan el sistema comprometido para evitar que el ataque se propague.
-        li 
-          .lista-ol--cuadro__vineta.v--green
-            span 4
-          p.mb-0 #[b Erradicación/Mitigación:] eliminan el #[i malware] y cierran la brecha explotada.
-        li 
-          .lista-ol--cuadro__vineta.v--green
-            span 5
-          p.mb-0 #[b Recuperación:] los sistemas afectados y monitorizan cualquier anomalía adicional.
-        li 
-          .lista-ol--cuadro__vineta.v--green
-            span 7
-          p.mb-0 #[b Lecciones aprendidas:] documentan el incidente y actualizan sus proceso.
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-7.order-2.order-lg-1
+          ol.lista-ol--cuadro.lista-ol--separador
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span 1
+              p.mb-0 #[b Preparación:] han entrenado previamente a su personal y cuentan con manuales de acción.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span 2
+              p.mb-0 #[b Identificación:] monitorean las alertas de su #[i firewall] e identifican el acceso sospechoso.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span 3
+              p.mb-0 #[b Contención:] aíslan el sistema comprometido para evitar que el ataque se propague.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span 4
+              p.mb-0 #[b Erradicación/Mitigación:] eliminan el #[i malware] y cierran la brecha explotada.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span 5
+              p.mb-0 #[b Recuperación:] los sistemas afectados y monitorizan cualquier anomalía adicional.
+            li 
+              .lista-ol--cuadro__vineta.v--green
+                span 6
+              p.mb-0 #[b Lecciones aprendidas:] documentan el incidente y actualizan sus proceso.
+        .col-lg-5.col-10.order-1.order-lg-2.mb-4(data-aos="zoom-in")
+          figure
+            img(src='@/assets/curso/temas/tema4/img3.png', alt='Imagen decorativa')
+
       .row.justify-content-center.align-items-center
         .col-lg-10
           .cajon.color-primario.p-4.mb-4
@@ -131,7 +137,7 @@
           tr(data-aos="fade-left")
             td Microsoft 365
             td Protección contra amenazas (EOP)
-            td Configuración de políticas EOP para antimalware, antispam y protección contra #[i phishing] en correos.
+            td Configuración de políticas EOP para #[i antimalware], #[i antispam] y protección contra #[i phishing] en correos.
           tr(data-aos="fade-left")
             td Microsoft Teams
             td Prevención de pérdida de datos (DLP)
@@ -142,8 +148,8 @@
             td Solo permite acceso a recursos con autenticación multifactor (MFA).
           tr(data-aos="fade-left")
             td AWS S3
-            td Control de acceso granular por bucket
-            td Acceso restringido de lectura/escritura a buckets específicos, denegando acceso sin MFA.
+            td Control de acceso granular por #[i bucket]
+            td Acceso restringido de lectura/escritura a #[i buckets] específicos, denegando acceso sin MFA.
           tr(data-aos="fade-left")
             td Computación en la nube
             td Seguridad de datos en la nube
@@ -170,34 +176,34 @@
         h2 4.3 Rol del Centro de Operaciones de Seguridad (SOC)
       p(data-aos="flip-up") El Centro de Operaciones de Seguridad o SOC por sus siglas en inglés, es un lugar —o un equipo— dentro de una empresa que se encarga de cuidar la seguridad informática. Es como el “equipo de vigilancia digital” que protege los sistemas, la información y los dispositivos de la organización frente a peligros como virus, #[i hackers] o fraudes.
       p.mb-5 Hay que pensar en el SOC como si fuera una central de control con cámaras y alarmas digitales, donde las personas que trabajan ahí vigilan todo lo que pasa dentro de las computadoras, redes y sistemas de la empresa. Si llega a pasar algo extraño, como un intento de robo de información o un comportamiento anormal en la red, ellos lo detectan y actúan rápidamente para detenerlo.
-      .row.justify-content-center.align-items-center.mb-4
-        .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-          figure
-            img(src='@/assets/curso/temas/tema4/img10.png', alt='Imagen decorativa')
-        .col-lg-8
-          .titulo.mb-4(data-aos="fade-left")
-            img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
-            h5.mb-0 ¿Qué hacen exactamente?
-          ul.lista-ul
-            li
-              i.fas.fa-hand
-              | Vigilan todo el tiempo (día y noche) para detectar si algo raro sucede con los sistemas.
-            li
-              i.fas.fa-hand
-              | Investigan problemas, como archivos sospechosos o mensajes peligrosos, para saber si pueden causar daño.
-            li
-              i.fas.fa-hand
-              | Responden a los ataques; es decir, los bloquean y ayudan a reparar todo lo que se haya visto afectado.
-            li
-              i.fas.fa-hand
-              | Proponen mejoras en la seguridad, como nuevas reglas o herramientas para evitar problemas en el futuro.
-            li
-              i.fas.fa-hand
-              | Ayudan a cumplir normas y proteger los datos que maneja la empresa.
-          .titulo.mb-4(data-aos="fade-left")
-            img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
-            h5.mb-0 ¿Por qué es importante?
-          p.mb-0 Hoy en día, muchas cosas en las empresas se hacen con tecnología: correos electrónicos, archivos digitales, bancos en línea, videollamadas, entre otros. Si esa tecnología es atacada o deja de funcionar por un virus o un #[i hacker], la empresa puede perder dinero, clientes o información muy valiosa. Por eso el SOC es muy importante: protege todo ese mundo digital para que las personas puedan trabajar seguras.
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema4/img10.png', alt='Imagen decorativa')
+      .col-lg-8
+        .titulo.mb-4(data-aos="fade-left")
+          img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
+          h5.mb-0 ¿Qué hacen exactamente?
+        ul.lista-ul
+          li
+            i.fas.fa-regular.fa-hand-point-right
+            | Vigilan todo el tiempo (día y noche) para detectar si algo raro sucede con los sistemas.
+          li
+            i.fas.fa-hand-point-right
+            | Investigan problemas, como archivos sospechosos o mensajes peligrosos, para saber si pueden causar daño.
+          li
+            i.fas.fa-hand-point-right
+            | Responden a los ataques; es decir, los bloquean y ayudan a reparar todo lo que se haya visto afectado.
+          li
+            i.fas.fa-hand-point-right
+            | Proponen mejoras en la seguridad, como nuevas reglas o herramientas para evitar problemas en el futuro.
+          li
+            i.fas.fa-hand-point-right
+            | Ayudan a cumplir normas y proteger los datos que maneja la empresa.
+        .titulo.mb-4(data-aos="fade-left")
+          img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
+          h5.mb-0 ¿Por qué es importante?
+        p.mb-0 Hoy en día, muchas cosas en las empresas se hacen con tecnología: correos electrónicos, archivos digitales, bancos en línea, videollamadas, entre otros. Si esa tecnología es atacada o deja de funcionar por un virus o un #[i hacker], la empresa puede perder dinero, clientes o información muy valiosa. Por eso el SOC es muy importante: protege todo ese mundo digital para que las personas puedan trabajar seguras.
     .row.justify-content-center.align-items-center
       .col-lg-10(data-aos="fade-left")
         .cajon.color-primario.p-4

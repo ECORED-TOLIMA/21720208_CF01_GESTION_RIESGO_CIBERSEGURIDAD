@@ -7,9 +7,9 @@
         span 2
       h1 Delitos informáticos y cibercrimen
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10(data-aos="fade-left")
+      .col-lg-10.order-2.order-lg-1(data-aos="fade-left")
         p Los delitos informáticos y el cibercrimen, son acciones ilegales que se realizan usando computadoras, teléfonos, Internet u otros dispositivos tecnológicos. Estas actividades buscan dañar, robar información o sacar beneficios engañando a personas o afectando sistemas. Algunos ejemplos comunes son el robo de contraseñas, enviar virus a otros equipos, hacer compras con tarjetas robadas por Internet o engañar con correos falsos (#[i phishing]) para que la gente entregue sus datos personales. También existen ataques que pueden bloquear el funcionamiento de páginas #[i web] o sistemas completos, afectando a personas, empresas e incluso gobiernos. Estos delitos se han vuelto más frecuentes porque Internet se usa en casi todos los aspectos de la vida diaria de las personas, como estudiar, trabajar, comprar y comunicarse.
-      .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="zoom-in")
+      .col-lg-2.col-4.mb-lg-0.mb-4.order-1.order-lg-2(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema2/img1.svg', alt='Imagen decorativa')
     
@@ -108,7 +108,7 @@
               p Utilizan ataques informáticos para causar pánico o daño a entidades gubernamentales o infraestructuras críticas.
           .row(numero="3" titulo="Criminales organizados").p-3
             .col-lg-12.mb-md-0
-              p Redes delictivas que operan en la web oscura para cometer fraudes, extorsiones y otros delitos financieros.
+              p Redes delictivas que operan en la #[i web] oscura para cometer fraudes, extorsiones y otros delitos financieros.
           .row(numero="4" titulo="<em>Insiders</em>").p-3
             .col-lg-12.mb-md-0
               p Empleados o exempleados que abusan de su acceso a sistemas internos para sabotaje, robo de información o espionaje corporativo.
@@ -144,7 +144,7 @@
         .row.justify-content-center.mb-3
           .col-lg-6.col-sm-4.col-6
             img(src='@/assets/curso/temas/tema2/img12.svg' alt='AvatarTop')
-        h5.text-center Malware
+        h5.text-center #[i Malware]
         p.text-center.mb-0 Desarrollo y propagación de #[i software] malicioso (#[i ransomware], troyanos, virus) para robar información, dañar sistemas o extorsionar a las víctimas mediante el secuestro de datos.
       .tarjeta.tarjeta--BG02.color-primario.p-4
         .row.justify-content-center.mb-3
@@ -163,7 +163,7 @@
           .col-lg-6.col-sm-4.col-6
             img(src='@/assets/curso/temas/tema2/img15.svg' alt='AvatarTop')
         h5.text-center Delitos contra la privacidad
-        p.text-center.mb-0 Uso indebido de datos personales para extorsión, suplantación de identidad o comercialización ilegal en la web oscura, lo que compromete la seguridad y derechos de las víctimas.
+        p.text-center.mb-0 Uso indebido de datos personales para extorsión, suplantación de identidad o comercialización ilegal en la #[i web] oscura, lo que compromete la seguridad y derechos de las víctimas.
       .tarjeta.tarjeta--BG02.color-primario.p-4
         .row.justify-content-center.mb-3
           .col-lg-6.col-sm-4.col-6
@@ -194,7 +194,7 @@
     p.mb-5(data-aos="flip-up") Los principales delitos contemplados en la ley incluyen: 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6(data-aos="fade-left")
+      .col-lg-6.order-2.order-lg-1(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           div(numero="1" titulo="Acceso abusivo a sistemas informáticos").p-3
             p.mb-0 Ingreso no autorizado a redes, bases de datos o plataformas digitales.
@@ -208,7 +208,7 @@
             p.mb-0 Alteración, eliminación o daño de información almacenada en medios electrónicos.
           div(numero="6" titulo="Fraude informático").p-3
             p.mb-0 Manipulación de sistemas informáticos para obtener beneficios económicos de manera ilícita.
-      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
+      .col-lg-4.col-8.mb-lg-0.mb-4.order-1.order-lg-2(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema2/img20.svg', alt='Imagen decorativa')
     
@@ -219,12 +219,12 @@
     
     p.mb-5 Los delitos informáticos son una preocupación global que afecta a individuos, empresas, gobiernos y otras organizaciones en todo el mundo. A medida que la tecnología ha avanzado y el Internet se ha convertido en un pilar fundamental de la vida diaria, las amenazas cibernéticas han evolucionado y se han sofisticado. Los delitos informáticos son un fenómeno creciente y no se limitan a un solo país o región, sino que afectan a nivel global, atravesando fronteras y presentando desafíos tanto para las leyes nacionales como para la cooperación internacional. Los delitos informáticos tienen su origen en las primeras computadoras conectadas en redes. Durante las primeras décadas de la informática, los delitos informáticos eran limitados, principalmente por el acceso no autorizado a sistemas. Sin embargo, a medida que el Internet y las redes globales crecieron, los ciberdelincuentes encontraron nuevas formas de atacar sistemas y robar información valiosa, lo que impulsó el desarrollo de legislación específica y organismos especializados en la lucha contra estos delitos.
     
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img21.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En las últimas dos décadas, los delitos informáticos han crecido de manera exponencial, impulsados por la expansión del uso de tecnologías como los smartphones, las computadoras portátiles, el Internet de las Cosas (IoT) y el comercio electrónico. Además, retomando lo mencionado previamente, la pandemia de COVID-19 aceleró la digitalización de las actividades cotidianas, lo que resultó en un aumento significativo de los ciberataques, especialmente los de #[i ransomware] y el fraude en línea. Los cibercriminales ahora operan en organizaciones criminales estructuradas, con objetivos financieros, políticos y, en algunos casos, militares.
+        p.mb-0 En las últimas dos décadas, los delitos informáticos han crecido de manera exponencial, impulsados por la expansión del uso de tecnologías como los #[i smartphones], las computadoras portátiles, el Internet de las Cosas (IoT) y el comercio electrónico. Además, retomando lo mencionado previamente, la pandemia de COVID-19 aceleró la digitalización de las actividades cotidianas, lo que resultó en un aumento significativo de los ciberataques, especialmente los de #[i ransomware] y el fraude en línea. Los cibercriminales ahora operan en organizaciones criminales estructuradas, con objetivos financieros, políticos y, en algunos casos, militares.
     
     p.mb-5 Dentro de las tendencias actuales, uno de los ataques más graves es el #[i ransomware], donde los ciberdelincuentes secuestran los sistemas de las víctimas, cifran sus datos y exigen un pago, generalmente en criptomonedas, para restaurar el acceso. Además, la expansión del teletrabajo durante la pandemia ha abierto nuevas oportunidades para los ciberdelincuentes, con un aumento de los ataques de #[i phishing] dirigidos a empleados que utilizan plataformas de colaboración remota.
     
@@ -232,7 +232,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-5.order-2.order-lg-1(data-aos="fade-left")
           p El cibercrimen patrocinado por el Estado también ha aumentado, con ataques a infraestructuras críticas y elecciones. Un ejemplo claro es el ciberataque a las elecciones presidenciales de EE. UU. en 2016, donde se acusó a actores rusos de interferir en el proceso electoral. Asimismo, el robo de datos y la privacidad sigue siendo una amenaza persistente, como lo evidenció el ataque a Facebook en 2021, que expuso los datos personales de más de 530 millones de usuarios.
-          p.mb-0 La creciente popularidad de las criptomonedas también ha facilitado actividades ilegales, como el lavado de dinero y el uso de mercados oscuros en la web. Además, el cibercrimen se ha extendido al ámbito de la desinformación, donde los cibercriminales manipulan la opinión pública mediante #[i fake news] y #[i bots] en redes sociales, afectando elecciones, movilizaciones y creando caos social.
+          p.mb-0 La creciente popularidad de las criptomonedas también ha facilitado actividades ilegales, como el lavado de dinero y el uso de mercados oscuros en la #[i web]. Además, el cibercrimen se ha extendido al ámbito de la desinformación, donde los cibercriminales manipulan la opinión pública mediante #[i fake news] y #[i bots] en redes sociales, afectando elecciones, movilizaciones y creando caos social.
         .col-lg-5.col-10.mb-lg-0.order-1.order-lg-2.mb-4(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema2/img22.png', alt='Imagen decorativa')
@@ -260,21 +260,21 @@
               p.mb-0 Las leyes de ciberseguridad y privacidad aún están en proceso de estandarizarse globalmente. Muchos países no cuentan con legislación específica que aborde todos los aspectos de los delitos informáticos, lo que permite que los ciberdelincuentes exploten brechas legales y operen sin temor a sanciones adecuadas.
             .col-lg-6.mb-lg-0.mb-4.order-1.order-lg-2
               figure
-                img(src='@/assets/curso/temas/tema2/img23.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img24.png', alt='Texto que describa la imagen')
           .row
             .col-lg-5.order-2.order-lg-1
               h4 Evolución rápida de las amenazas
               p.mb-0 Los ciberdelincuentes son cada vez más sofisticados y utilizan tecnologías avanzadas, como inteligencia artificial y #[i machine learning], para mejorar sus ataques, lo que representa un reto para los gobiernos y las empresas, que deben adaptarse constantemente a nuevas amenazas. Además, la automatización y el uso de herramientas como #[i ransomware-as-a-service] han permitido a actores menos especializados lanzar ataques cibernéticos de gran escala.
             .col-lg-6.mb-lg-0.mb-4.order-1.order-lg-2
               figure
-                img(src='@/assets/curso/temas/tema2/img23.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img25.png', alt='Texto que describa la imagen')
           .row
             .col-lg-5.order-2.order-lg-1
               h4 Falta de recursos en países en desarrollo
               p.mb-0 Muchos países no cuentan con los recursos humanos y tecnológicos necesarios para enfrentar el cibercrimen de manera efectiva. Esto genera una disparidad en la capacidad de los diferentes países para proteger sus infraestructuras críticas, regular las actividades en línea y perseguir a los responsables de delitos informáticos.
             .col-lg-6.mb-lg-0.mb-4.order-1.order-lg-2
               figure
-                img(src='@/assets/curso/temas/tema2/img23.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img26.png', alt='Texto que describa la imagen')
     
     p(data-aos="flip-up") La lucha contra el cibercrimen requiere de un enfoque integral que implique la colaboración internacional, la actualización constante de las normativas y el desarrollo de tecnologías avanzadas para contrarrestar las tácticas, cada vez más sofisticadas de los ciberdelincuentes. Solo mediante la cooperación y el fortalecimiento de las capacidades nacionales e internacionales se podrá enfrentar esta amenaza global de manera efectiva.
     p.mb-5(data-aos="flip-up") El ciberespacio es un entorno digital en constante evolución que ha transformado la interacción global, dando origen a la ciberseguridad como una disciplina clave para proteger la información y los sistemas tecnológicos. A lo largo de su historia, la ciberseguridad ha desarrollado normativas y principios esenciales para mitigar riesgos y enfrentar desafíos como los delitos informáticos, los cuales afectan a individuos, empresas y gobiernos a nivel mundial. Estos delitos, cometidos por diversos actores del cibercrimen, incluyen fraudes electrónicos, robo de datos y ataques a infraestructuras críticas, lo que ha impulsado la creación de regulaciones y estrategias de prevención. 
