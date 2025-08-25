@@ -85,9 +85,8 @@
           p.mb-0 A medida que los ataques evolucionan, también deben hacerlo las estrategias de defensa, asegurando así un entorno digital más seguro y confiable para todos.
 
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.2	Historia y evolución de la ciberseguridad
-
     p La evolución de la ciberseguridad está directamente vinculada al desarrollo de la informática y la expansión de Internet. A medida que las tecnologías digitales han avanzado, también lo han hecho las amenazas cibernéticas, lo que ha llevado a la creación de nuevas estrategias y herramientas para proteger la información y las infraestructuras digitales. Desde los primeros sistemas cerrados, hasta el mundo hiperconectado de hoy, la ciberseguridad ha pasado de ser una preocupación limitada a un ámbito técnico a convertirse en una prioridad global para gobiernos, empresas y ciudadanos. 
     p.mb-5 A continuación, se presentan los eventos más relevantes de cada década: 
     .tarjeta.tarjeta--BG01.p-5.mb-4(data-aos="zoom-in")
@@ -139,7 +138,7 @@
           p.mb-0 La historia de la ciberseguridad refleja una batalla continua por proteger la información, la privacidad y la infraestructura crítica, una batalla que continuará a medida que el ciberespacio siga evolucionando.
     
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.3	Características clave de la ciberseguridad
     
     p La ciberseguridad abarca una serie de principios y características fundamentales que buscan proteger la integridad, confidencialidad y disponibilidad de la información. Todas ellas, desempeñan un papel crucial en el diseño y la implementación de sistemas seguros. 
@@ -162,7 +161,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-left")
-        LineaTiempoD.color-acento-botones
+        LineaTiempoD.color-secundario
           .row.justify-content-center(numero="1" titulo="Autenticidad")
             .col-lg-12.order-lg-2.order-3
               p.mb-lg-4.mb-0 Garantiza que los usuarios, sistemas y dispositivos sean quienes dicen ser. En un entorno digital, la autenticidad es esencial para evitar fraudes y suplantaciones de identidad. Se asegura mediante métodos como autenticación multifactor (MFA), que exige más de un factor (contraseña, huella dactilar, código enviado a un teléfono, etc.) para verificar la identidad del usuario, antes de permitir el acceso a un sistema.              
