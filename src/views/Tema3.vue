@@ -26,7 +26,7 @@
     
     p.mb-5 A continuación, en un video, se aborda la definición y componentes de las TI, servicios y roles asociados a la infraestructura tecnológica y tendencias emergentes en el entorno digital en la siguiente historia:
     
-    .titulo.mb-4(data-aos="fade-left")
+    .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Análisis forense y profesionalización en ciberseguridad. El descubrimiento ¿Qué son las TIC?
     .row.justify-content-center.align-items-center.mb-5
@@ -35,7 +35,7 @@
           .video
             iframe(width="1246" height="701" src="https://www.youtube.com/embed/j6APeoqzopU" title="Análisis forense y profesionalización en ciberseguridad  -  El descubrimiento: ¿Qué son las TI?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
-    .titulo.mb-4(data-aos="fade-left")
+    .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0  Análisis forense y profesionalización en ciberseguridad. Tendencias emergentes: el futuro ya llegó
 

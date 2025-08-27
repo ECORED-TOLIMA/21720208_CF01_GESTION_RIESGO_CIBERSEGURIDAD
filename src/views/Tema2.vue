@@ -102,22 +102,22 @@
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="<em>Black hat hackers</em>").p-3
             .col-lg-12.mb-md-0
-              p Expertos en informática que explotan vulnerabilidades con fines ilícitos, como el robo de datos o la distribución de #[i malware].
+              p.mb-0 Expertos en informática que explotan vulnerabilidades con fines ilícitos, como el robo de datos o la distribución de #[i malware].
           .row(numero="2" titulo="Ciberterroristas").p-3
             .col-lg-12.mb-md-0
-              p Utilizan ataques informáticos para causar pánico o daño a entidades gubernamentales o infraestructuras críticas.
+              p.mb-0 Utilizan ataques informáticos para causar pánico o daño a entidades gubernamentales o infraestructuras críticas.
           .row(numero="3" titulo="Criminales organizados").p-3
             .col-lg-12.mb-md-0
-              p Redes delictivas que operan en la #[i web] oscura para cometer fraudes, extorsiones y otros delitos financieros.
+              p.mb-0 Redes delictivas que operan en la #[i web] oscura para cometer fraudes, extorsiones y otros delitos financieros.
           .row(numero="4" titulo="<em>Insiders</em>").p-3
             .col-lg-12.mb-md-0
-              p Empleados o exempleados que abusan de su acceso a sistemas internos para sabotaje, robo de información o espionaje corporativo.
+              p.mb-0 Empleados o exempleados que abusan de su acceso a sistemas internos para sabotaje, robo de información o espionaje corporativo.
           .row(numero="5" titulo="<em>Hacktivistas</em>").p-3
             .col-lg-12.mb-md-0
-              p Individuos o grupos que emplean ataques cibernéticos con motivaciones políticas o ideológicas, como la filtración de documentos confidenciales.
+              p.mb-0 Individuos o grupos que emplean ataques cibernéticos con motivaciones políticas o ideológicas, como la filtración de documentos confidenciales.
           .row(numero="6" titulo="Actores patrocinados por Estados").p-3
             .col-lg-12.mb-md-0
-              p Grupos respaldados por gobiernos que realizan ciberespionaje, sabotaje o ataques dirigidos contra otras naciones.
+              p.mb-0 Grupos respaldados por gobiernos que realizan ciberespionaje, sabotaje o ataques dirigidos contra otras naciones.
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10(data-aos="fade-left")
@@ -183,7 +183,7 @@
           img(src='@/assets/curso/temas/tema2/img19.svg', alt='Imagen decorativa')
       .col-lg-8(data-aos="fade-left")
         p Los delitos informáticos continúan evolucionando a medida que la tecnología avanza, lo que representa un desafío constante para las autoridades y los profesionales de la ciberseguridad. La sofisticación de los ataques, junto con la expansión del acceso a Internet y el crecimiento del cibercrimen organizado, hace imprescindible la implementación de estrategias de prevención, detección y respuesta efectivas. 
-        .cajon.color-secundario.p-4.mb-4
+        .cajon.color-secundario.p-4
           p.mb-0 La cooperación internacional, el desarrollo de marcos normativos actualizados y la concienciación de los usuarios son clave para mitigar los riesgos y fortalecer la seguridad en el entorno digital.
     
     separador

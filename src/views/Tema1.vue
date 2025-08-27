@@ -13,7 +13,7 @@
     
     p.mb-5 La ciberseguridad organizacional es el conjunto de medidas y estrategias que utilizan las empresas para proteger sus computadoras, sistemas, redes e información importante, frente a personas malintencionadas que intentan robar o dañar esos datos. Estas medidas van desde el uso de programas especiales de seguridad, hasta reglas que todos los empleados deben seguir para evitar errores que puedan poner en riesgo la información. Por ejemplo, una empresa puede instalar antivirus, bloquear accesos sospechosos a sus redes y capacitar a sus trabajadores para que no abran correos peligrosos. Todo esto ayuda a mantener la información segura, funcionando correctamente y disponible cuando se necesita. En un mundo cada vez más digital, donde las empresas manejan datos personales, contraseñas, cuentas bancarias y otros datos sensibles por Internet, es muy importante protegerlos para evitar consecuencias graves como robos, pérdida de dinero o daños a la reputación de la empresa.
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img2.png')})`}", data-aos="fade-left"
       )
@@ -37,13 +37,13 @@
     p A medida que surgen nuevas tecnologías como la Inteligencia Artificial (IA) y el Internet de las Cosas (IoT), los ciberdelincuentes desarrollan métodos de ataque más sofisticados, aprovechando la creciente cantidad de dispositivos conectados. Por este motivo, la protección del ecosistema digital requiere un enfoque integral que combine herramientas avanzadas, normativas adecuadas y una sólida cultura de seguridad.
     p.mb-5 Para garantizar una protección eficaz, se emplean diversas herramientas y estrategias, como: 
 
-    .tarjeta--BG053.px-md-5.mb-5
+    .tarjeta--BG053.px-md-5.p-4.mb-5
       .row.justify-content-center.align-items-center.my-lg-5.my-4
         .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/tema1/img4.png', alt='Imagen decorativa' style='margin-bottom: -23px;')
         .col-lg-8(data-aos="fade-left")
-          SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-6")
+          SlyderF.color-acento-botones(columnas="col-lg-6")
             .tarjeta.bgblanco.p-4
               .row.justify-content-center.mb-3
                 .col-4
@@ -134,7 +134,7 @@
           img(src='@/assets/curso/temas/tema1/img17.svg', alt='Imagen decorativa')
       .col-lg-8(data-aos="fade-left")
         p A lo largo de estas décadas, la ciberseguridad ha evolucionado en respuesta a la creciente interconexión de sistemas y al aumento de las amenazas cibernéticas. Lo que comenzó como una preocupación limitada a redes cerradas y sistemas gubernamentales, hoy en día afecta a todos los niveles de la sociedad, desde individuos hasta grandes corporaciones y gobiernos. A medida que las tecnologías avanzan, también lo hacen las tácticas de los ciberatacantes, lo que hace que la ciberseguridad siga siendo un desafío constante y de vital importancia. 
-        .cajon.color-secundario.p-4.mb-4
+        .cajon.color-secundario.p-4
           p.mb-0 La historia de la ciberseguridad refleja una batalla continua por proteger la información, la privacidad y la infraestructura crítica, una batalla que continuará a medida que el ciberespacio siga evolucionando.
     
     separador
@@ -161,7 +161,7 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-left")
-        LineaTiempoD.color-secundario
+        LineaTiempoD.color-color-acento-botones
           .row.justify-content-center(numero="1" titulo="Autenticidad")
             .col-lg-12.order-lg-2.order-3
               p.mb-lg-4.mb-0 Garantiza que los usuarios, sistemas y dispositivos sean quienes dicen ser. En un entorno digital, la autenticidad es esencial para evitar fraudes y suplantaciones de identidad. Se asegura mediante métodos como autenticación multifactor (MFA), que exige más de un factor (contraseña, huella dactilar, código enviado a un teléfono, etc.) para verificar la identidad del usuario, antes de permitir el acceso a un sistema.              
@@ -215,7 +215,7 @@
           p.mb-0 A medida que los sistemas digitales se expanden y evolucionan, la seguridad debe adaptarse para enfrentar nuevos desafíos y estas características deben ser la base sobre la cual se construyan las estrategias de ciberseguridad.
     
     separador
-    .tarjeta-BG02.px-4
+    .tarjeta-BG02.px-md-5.px-4
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.4	Importancia de la ciberseguridad en el entorno empresarial
       
