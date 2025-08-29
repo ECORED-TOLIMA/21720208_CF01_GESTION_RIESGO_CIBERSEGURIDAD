@@ -29,43 +29,43 @@
     p.mb-5(data-aos="flip-up") A continuación, se detalla la evolución que ha tenido el cibercrimen, en los diferentes procesos tecnológicos que hacen parte de la ciberseguridad: 
     
     .tarjeta--BG043.p-4.px-md-5.mb-4(data-aos="fade-in")
-      PasosB.color-acento-botones
-        .row
+      LineaTiempoC.color-acento-botones(text-small)
+        .row.justify-content-center(titulo="Década de 1950-1970")
           .col-lg-5.order-2.order-lg-1
             h4 Década de 1950-1970 - Los inicios de los delitos informáticos
             p.mb-0 El origen de los delitos informáticos está ligado al desarrollo temprano de la computación y las primeras redes de comunicación. En los años 50 y 60, las computadoras eran utilizadas principalmente en universidades, gobiernos y empresas. Durante esta época, no existía una infraestructura global como Internet, por lo que los delitos informáticos eran limitados. Sin embargo, el concepto de manipulación de sistemas informáticos comenzó a discutirse, sentando las bases para futuras amenazas.
           .col-lg-6.mb-lg-0.mb-4.order-1.order-lg-2
             figure
               img(src='@/assets/curso/temas/tema2/img3.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center(titulo="Década de 1980")
           .col-lg-5.order-2.order-lg-1
             h4 Década de 1980 - El auge del #[i malware] y el fraude informático
             p.mb-0 Con la llegada de las computadoras personales y la expansión de las redes, surgieron los primeros delitos informáticos claramente definidos. Durante este período, el uso de #[i malware] (#[i software] malicioso) comenzó a ganar notoriedad, con los primeros virus diseñados para replicarse y dañar computadoras. Un ejemplo temprano fue el virus "Brain" en 1986, considerado uno de los primeros en afectar computadoras a gran escala. Además, se registraron casos de fraude informático y robo de datos, aprovechando las redes para cometer estafas financieras.
           .col-lg-6.mb-lg-0.mb-4.order-1.order-lg-2
             figure
               img(src='@/assets/curso/temas/tema2/img4.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center(titulo="Década de 1990")
           .col-lg-5.order-2.order-lg-1
             h4 Década de 1990 - La expansión de Internet y los ciberataques
             p.mb-0 Con la proliferación de Internet, los delitos informáticos se diversificaron y se convirtieron en una preocupación global. La piratería informática (#[i hacking]) comenzó a afectar a gobiernos y empresas, con ataques dirigidos al robo de información confidencial. También surgieron los delitos cibernéticos financieros, como el #[i phishing] y el fraude en línea. En 1994, se reportó uno de los primeros casos importantes de fraude con tarjetas de crédito en línea, marcando un punto de inflexión en la cibercriminalidad.
           .col-lg-6.mb-lg-0.mb-4.order-1.order-lg-2
             figure
               img(src='@/assets/curso/temas/tema2/img5.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center(titulo="Década de 2000")
           .col-lg-5.order-2.order-lg-1
             h4 Década de 2000 - Cibercrimen organizado y #[i ransomware]
             p.mb-0 A medida que Internet se consolidó como una plataforma global de comunicación y comercio, los delitos informáticos se volvieron más organizados. Durante esta década, las organizaciones criminales comenzaron a utilizar la red para llevar a cabo actividades ilegales a gran escala, incluyendo el robo de datos personales y ataques DDoS (Denegación de Servicio Distribuido). Uno de los delitos informáticos más notorios de la época fue el #[i ransomware], un tipo de ataque en el que los delincuentes cifran los archivos de la víctima y exigen un rescate para liberarlos. Ejemplos como el virus "Klez" a principios de los 2000 ilustran este creciente problema.
           .col-lg-6.mb-lg-0.mb-4.order-1.order-lg-2
             figure
               img(src='@/assets/curso/temas/tema2/img6.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center(titulo="Década de 2010")
           .col-lg-5.order-2.order-lg-1
             h4 Década de 2010 - Amenazas avanzadas y filtraciones masivas
             p.mb-0 El auge del Internet de las Cosas (IoT), la computación en la nube y las redes sociales amplió el alcance de los delitos informáticos. Los ataques de #[i ransomware] se volvieron más sofisticados y las filtraciones de datos afectaron a millones de usuarios. Empresas de alto perfil, como Yahoo! y Equifax, sufrieron violaciones de seguridad masivas. Además, los ataques cibernéticos patrocinados por estados y las Amenazas Persistentes Avanzadas (APT) se convirtieron en una preocupación creciente, con hackers infiltrándose en sistemas gubernamentales y empresariales para el espionaje político, económico y militar.
           .col-lg-6.mb-lg-0.mb-4.order-1.order-lg-2
             figure
               img(src='@/assets/curso/temas/tema2/img7.png', alt='Texto que describa la imagen')
-        .row
+        .row.justify-content-center(titulo="Década de 2020")
           .col-lg-5.order-2.order-lg-1
             h4 Década de 2020 - Ciberataques sofisticados y nuevas tecnologías
             p.mb-0 La actualidad ha sido testigo de un aumento en la sofisticación de los delitos informáticos. Entre los ataques más comunes se encuentran el #[i phishing] dirigido, el fraude financiero mediante criptomonedas y los ciberataques a infraestructuras críticas, como hospitales y redes eléctricas. Como se mencionó, la pandemia de COVID-19 impulsó el teletrabajo y, con él, un incremento en los ciberataques, como el #[i ransomware]. Además, los cibercriminales están empleando inteligencia artificial y #[i machine learning] para hacer sus ataques más complejos y evasivos. Asimismo, los ataques a la cadena de suministro han aumentado, comprometiendo a proveedores de #[i software] para infiltrarse en las redes de sus clientes.
