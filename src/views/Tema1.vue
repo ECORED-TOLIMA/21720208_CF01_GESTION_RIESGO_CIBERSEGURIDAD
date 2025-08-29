@@ -37,7 +37,7 @@
     p A medida que surgen nuevas tecnologías como la Inteligencia Artificial (IA) y el Internet de las Cosas (IoT), los ciberdelincuentes desarrollan métodos de ataque más sofisticados, aprovechando la creciente cantidad de dispositivos conectados. Por este motivo, la protección del ecosistema digital requiere un enfoque integral que combine herramientas avanzadas, normativas adecuadas y una sólida cultura de seguridad.
     p.mb-5 Para garantizar una protección eficaz, se emplean diversas herramientas y estrategias, como: 
 
-    .tarjeta--BG053.px-md-5.p-4.mb-5
+    .tarjeta--BG053.px-md-5.mb-5
       .row.justify-content-center.align-items-center.my-lg-5.my-4
         .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop(data-aos="fade-left")
           figure
@@ -148,7 +148,7 @@
       .col-lg-8.order-lg-1.order-2(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Integridad")
-            p.mb-0 Asegura que la información no sea alterada de manera no autorizada. Esto implica que los datos sean precisos y completos, sin modificaciones maliciosas o accidentales. Se emplean mecanismos como las firmas digitales o códigos hash para verificar que los datos no hayan sido alterados. Por ejemplo, si un archivo es enviado a través de Internet, su integridad se puede verificar mediante un código #[i hash], lo que permite comprobar si el archivo ha sido modificado durante el tránsito.
+            p.mb-0 Asegura que la información no sea alterada de manera no autorizada. Esto implica que los datos sean precisos y completos, sin modificaciones maliciosas o accidentales. Se emplean mecanismos como las firmas digitales o códigos #[i hash] para verificar que los datos no hayan sido alterados. Por ejemplo, si un archivo es enviado a través de Internet, su integridad se puede verificar mediante un código #[i hash], lo que permite comprobar si el archivo ha sido modificado durante el tránsito.
           div(titulo="Confidencialidad")
             p.mb-0 Este principio garantiza que solo las personas o entidades autorizadas puedan acceder a la información. La confidencialidad es crucial para proteger datos sensibles, como información personal, financiera o corporativa. Por ejemplo, se utilizan técnicas como la encriptación de datos para asegurar que incluso si la información es interceptada, no pueda ser leída sin la clave adecuada. Esta característica protege tanto a individuos como a organizaciones de accesos no autorizados que puedan comprometer su seguridad.
           div(titulo="Disponibilidad")
