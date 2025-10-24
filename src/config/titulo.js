@@ -1,1 +1,1 @@
-module.exports = 'ECOBASE_SENA'
+module.exports = 'Ciberseguridad y gestión del riesgo organizacional'
